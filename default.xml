@@ -2,10 +2,14 @@
 <manifest>
   <remote name="github"
       fetch="http://github.com/"
+      alias="origin"
       />
   <default review="master"
       remote="github"
       revision="master"
+      sync-j="1"
+      sync-c="true"
+      sync-s="true"
       />
   <project name="haobug/bashrc" path="notdofiles/bashrc">
       <linkfile src="_bashrc" dest=".bashrc" />
