@@ -11,10 +11,7 @@
       sync-c="true"
       sync-s="true"
       />
-  <project name="haobug/bashrc" path="notdofiles/bashrc">
-      <linkfile src="_bashrc" dest=".bashrc" />
-      <linkfile src="_bash" dest=".bash" />
-  </project>
+  <project name="haobug/bashrc" path=".bashrc.d" />
   <project name="haobug/git_conf" path="notdofiles/git_conf">
       <linkfile src="_gitconfig" dest=".gitconfig" />
       <linkfile src="_gitignore" dest=".gitignore" />
